@@ -8,11 +8,13 @@ import { CommonModule } from '@angular/common';
 })
 export class SideBarComponent {
   socialLinks: { iconPath: string, link: string }[] = [
-    { iconPath: 'assets/img/discord.png', link: 'https://discord.com' },
-    { iconPath: 'assets/img/github.png', link: 'https://github.com' },
-    { iconPath: 'assets/img/instagram.png', link: 'https://instagram.com' },
-    { iconPath: 'assets/img/messenger.png', link: 'https://messenger.com' },
-    { iconPath: 'assets/img/whatsapp.png', link: 'https://whatsapp.com' }
+    { iconPath: 'assets/images/discord.png', link: 'https://discord.com' },
+    { iconPath: 'assets/images/github.png', link: 'https://github.com' },
+    { iconPath: 'assets/images/instagram.png', link: 'https://instagram.com' },
+    { iconPath: 'assets/images/messenger.png', link: 'https://messenger.com' },
+    { iconPath: 'assets/images/whatsapp.png', link: 'https://whatsapp.com' }
   ];
-// nezobrazuji se obrazky i kdyz adresy jsou spravne
+
+ 
+
 }

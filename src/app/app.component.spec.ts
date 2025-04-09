@@ -12,7 +12,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
-  });
+  }); 
 
   it(`should have the 'joncl_portfolium' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
