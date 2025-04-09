@@ -1,0 +1,51 @@
+main{
+    display: flex;
+    height: 100vh;
+}
+
+main > div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.setting-wrp{
+    background-color: #0e1116;
+    border-right: 2px solid #30353c;
+    box-sizing: border-box;
+    width: 45px;
+    flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.info-wrapper{
+    width: auto;
+    margin-left: 10px;  
+    width: 200px;
+
+}
+.stats-wrapper{
+    margin-left: 10px;  
+    flex: 1;
+    
+}
+.projects-wrapper{
+    margin-left: 10px;  
+    width: 250px;
+    margin-right: 10px;
+}
+.inner-fill{
+    width: calc(100%);
+    height: calc(100%);
+    /* border: 1px solid #FFF; */
+}
+.wrapper{
+    width: 100%; 
+    min-height: 100px;
+    height: auto;
+    margin-top: 10px;
+    background-color: #0f1116;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
