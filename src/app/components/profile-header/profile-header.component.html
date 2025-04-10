@@ -1,0 +1,24 @@
+<div class="header-part">
+    <div>
+        <div class="img-wrp">
+            <img src="{{profileIconLink}}" alt="">
+        </div>
+        <div class="name-wrp">
+            <h2>{{name}}</h2>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="info-wrp" *ngFor="let info of personalInfo">
+        <div class="info-ins-wrp pad-right-5px pad-left-5px">
+            <div class="icon-wrp">
+                
+            </div>
+            <div class="info ">
+                {{info.title}}
+            </div>
+        </div>        
+    </div>    
+</div>
+
+
+

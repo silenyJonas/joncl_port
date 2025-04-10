@@ -20,7 +20,7 @@ main > div{
 .info-wrapper{
     width: auto;
     margin-left: 10px;  
-    width: 200px;
+    width: 400px;
 
 }
 .stats-wrapper{
@@ -30,7 +30,7 @@ main > div{
 }
 .projects-wrapper{
     margin-left: 10px;  
-    width: 250px;
+    width: 550px;
     margin-right: 10px;
 }
 .inner-fill{

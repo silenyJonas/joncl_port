@@ -12,9 +12,7 @@ export class SideBarComponent {
     { iconPath: 'assets/images/github.png', link: 'https://github.com' },
     { iconPath: 'assets/images/instagram.png', link: 'https://instagram.com' },
     { iconPath: 'assets/images/messenger.png', link: 'https://messenger.com' },
-    { iconPath: 'assets/images/whatsapp.png', link: 'https://whatsapp.com' }
+    { iconPath: 'assets/images/whatsapp.png', link: 'https://whatsapp.com' },
+    { iconPath: 'assets/images/spotify.png', link: 'https://spotify.com' },
   ];
-
- 
-
 }

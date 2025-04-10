@@ -1,0 +1,38 @@
+.wrp{
+    display: flex;
+}
+.circle-big{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #7b704e;
+}
+.circle-medium{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #7b704e;
+}
+.circle-small{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #7b704e;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-black-fill{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0f1116;
+    
+}
+.vertical-line{
+    width: 2px;
+    height: 20px;
+    background-color: #7b704e;    
+}

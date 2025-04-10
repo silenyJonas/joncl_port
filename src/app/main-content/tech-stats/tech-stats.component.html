@@ -1,3 +1,14 @@
 <div class="component-main">
-    tech-stats works
+    
+    <!-- <h3>
+        {{header}}
+    </h3> -->
+    <div class="container-wrp">
+        <div class="container" *ngFor="let item of yearsActive">
+            <div>
+              {{ item.number}} {{ item.description }}
+            </div>
+          </div>
+    </div>
 </div>
+
