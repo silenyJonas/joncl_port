@@ -7,10 +7,21 @@
 }
 .container{
     border-radius: 15px;
-    border: 2px solid #211f21;
+    border: 1px solid #616161;
+    background-color: #191819;
     width: 30%;
     height: 250px;
+}
+.item-wrp-1{
+    padding-top: 20px;
+    font-size: 122px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-bottom: -24px;
+}
+.item-wrp-2{
+    width: 100%;
+    display: flex;
+    justify-content: center
 }

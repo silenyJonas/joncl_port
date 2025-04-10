@@ -10,9 +10,9 @@ export class TechStatsComponent {
   header : string = "Tech Stats";
 
   yearsActive: { number: string; description: string }[] = [
-    { number: "3+", description: "Years Active" },
-    { number: "8+", description: "Projects Completed" },
-    { number: "5+", description: "Clients" },
+    { number: "3", description: "Years Active" },
+    { number: "8", description: "Projects Completed" },
+    { number: "5", description: "Clients" },
   ];
 
 }

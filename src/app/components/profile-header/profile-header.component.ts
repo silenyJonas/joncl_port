@@ -11,5 +11,5 @@ export class ProfileHeaderComponent {
   @Input() profileIconLink: string = '';   
 
   @Input() personalInfo: { title: string; iconPath: string }[] = [];
-  
+  @Input() flagPath: string = '';
 }

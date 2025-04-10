@@ -42,4 +42,7 @@ export class InfoComponent {
     { title: 'from: Czech', iconPath: 'xxx' },
     { title: '21yo', iconPath: 'xxx' }    
   ];
+
+  //LINK TO COUNTRY ICONS
+  flagPath: string = 'assets/info-icons/czech-republic.png'; // Path to the flag icon
 }

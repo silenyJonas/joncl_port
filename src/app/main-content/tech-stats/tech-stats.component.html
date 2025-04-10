@@ -1,12 +1,15 @@
 <div class="component-main">
     
-    <!-- <h3>
+    <h3>
         {{header}}
-    </h3> -->
+    </h3>
     <div class="container-wrp">
         <div class="container" *ngFor="let item of yearsActive">
-            <div>
-              {{ item.number}} {{ item.description }}
+            <div class="item-wrp-1">
+              {{ item.number}} 
+            </div>
+            <div class="item-wrp-2">
+              {{ item.description }}
             </div>
           </div>
     </div>
