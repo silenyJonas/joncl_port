@@ -3,8 +3,17 @@
     justify-content: center;
     flex-direction: column;
 }
-.header-part div{
+.personalInfo-wrp{
     display: flex;
+}
+.header-part-2{
+    display: flex;
+}
+.name-inside-wrp{
+    display: flex;
+}
+.header-part div{
+    /* display: flex; */
 }
 .img-wrp{
     width: 90px;
@@ -16,7 +25,7 @@
     border-radius: 10%;
 }
 .name-wrp{
-    display: flex;
+    /* display: flex; */
     align-items: end;
     padding-left: 15px;
 }
@@ -56,5 +65,25 @@
     width: 35px;
     height: auto;
     padding-left: 10px;
-
+}
+.onlinestatus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #40a258;
+    border-radius: 9999px;
+    background-color: #162d1c;
+}
+.online-text{
+    font-size: 12px;
+    color: #7ad08f;
+    margin-right: 4px;
+}
+.online-circle{
+    margin-left: 2px;
+    width: 14px;
+    height: 14px;
+    background-color: #40a258;
+    border-radius: 50%;
+    margin-right: 5px;
 }

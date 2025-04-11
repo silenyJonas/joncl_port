@@ -18,6 +18,12 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
 }
+.cursor-default { cursor: default; } /* Normální kurzor */
+.cursor-pointer { cursor: pointer; } /* Ruka */
+.cursor-text { cursor: text; } /* I-kurzor pro text */
+.cursor-wait { cursor: wait; } /* Kolečko načítání */
+.cursor-crosshair { cursor: crosshair; } /* Křížek (např. grafické nástroje) */
+.cursor-move { cursor: move; } /* Šipky pro přetahování */
 
 
   
