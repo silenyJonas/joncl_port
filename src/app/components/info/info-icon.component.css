@@ -6,6 +6,9 @@
     border-radius: 9999px;
     background-color: #191819;
 }
+.info-icon-item{
+    padding-right: 5px;
+}
 .img-wrapper{
     width: auto;
     height: 30px;

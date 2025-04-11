@@ -6,9 +6,9 @@
     justify-content: space-around;
 }
 .container{
-    border-radius: 15px;
+    /* border-radius: 15px;
     border: 1px solid #616161;
-    background-color: #191819;
+    background-color: #191819; */
     width: 30%;
     height: 250px;
 }
