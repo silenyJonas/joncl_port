@@ -5,9 +5,20 @@ body {
     background-color: #020409;
     color: rgba(255, 255, 255, 0.818);
 }
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
 
+  
 .static-border{
-    border: 2px solid #211f21;
+    border: 2px solid #1e743f;
     border-radius: 5px;
     box-sizing: border-box;
 }
