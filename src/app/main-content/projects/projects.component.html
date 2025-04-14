@@ -5,15 +5,15 @@
             {{ item.title }}
         </div>
         <div class="body" [style.backgroundImage]="'url(' + item.backgroundPath + ')'">
-            <div class="github-wrapper">
-                <div class="github">
-                    <div class="logo">
-                        <img [src]="item.githubLogo" alt="GitHub Logo" class="github-logo">
+                <div *ngIf="item.githubLink != ''" class="github-wrapper">
+                    <div class="github">
+                        <div class="logo">
+                            <img [src]="item.githubLogo" alt="GitHub Logo" class="github-logo">
+                        </div>
+                        <div class="text">
+                            Source Code
+                        </div>
                     </div>
-                    <div class="text">
-                        Source Code
-                    </div>
-                </div>
             </div>
         </div>
     </div>
