@@ -12,9 +12,6 @@
 .name-inside-wrp{
     display: flex;
 }
-.header-part div{
-    /* display: flex; */
-}
 .img-wrp{
     width: 90px;
     height: 90px;
@@ -25,7 +22,6 @@
     border-radius: 10%;
 }
 .name-wrp{
-    /* display: flex; */
     align-items: end;
     padding-left: 15px;
 }

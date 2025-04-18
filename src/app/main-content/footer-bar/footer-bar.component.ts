@@ -12,14 +12,12 @@ export class FooterBarComponent {
   rightsReserved: string = '';
   sourceCode: string = '';
   sourceCodeLink: string = 'https://github.com/silenyJonas/joncl_port';
-
   constructor(private languageService: LanguageService) {
     this.languageService.isEnglish$.subscribe(isEng => {
       this.setText(isEng);
     });
     this.setText(this.languageService.isEnglish);
   }
-
   toggleLang(lang: boolean) {
     this.languageService.toggleLanguage(lang);
   }
@@ -27,7 +25,6 @@ export class FooterBarComponent {
     this.rightsReserved = isEnglish
       ? '2023 Joncl. All rights reserved.'
       : '2023 Joncl. Všechna práva vyhrazena.';
-      
     this.sourceCode = isEnglish
       ? 'Page Source Code'
       : 'Zdrojový kód stránky';

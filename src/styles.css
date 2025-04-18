@@ -13,13 +13,10 @@ body {
     min-height: 100%;
     object-fit: cover;
     z-index: -1;
-  }
-  
-
-  
+}
 .static-border{
     border: 2px solid #1e743f;
-    border-radius: 5px;
+    border-radius: 20px;
     box-sizing: border-box;
 }
 .component-main{
@@ -29,12 +26,9 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
 }
-.cursor-default { cursor: default; } /* Normální kurzor */
-.cursor-pointer { cursor: pointer; } /* Ruka */
-.cursor-text { cursor: text; } /* I-kurzor pro text */
-.cursor-wait { cursor: wait; } /* Kolečko načítání */
-.cursor-crosshair { cursor: crosshair; } /* Křížek (např. grafické nástroje) */
-.cursor-move { cursor: move; } /* Šipky pro přetahování */
-
-
-  
+.cursor-default { cursor: default; } 
+.cursor-pointer { cursor: pointer; }
+.cursor-text { cursor: text; } 
+.cursor-wait { cursor: wait; }
+.cursor-crosshair { cursor: crosshair; } 
+.cursor-move { cursor: move; }

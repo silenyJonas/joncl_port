@@ -11,18 +11,12 @@ import { LanguageService } from '../../language.service'
 export class TechStatsComponent implements OnInit {
   header: string = '';
   yearsActive: { number: string; description: string }[] = [];
-
   constructor(public languageService: LanguageService) {}
-
   ngOnInit(): void {
-    // načtení textu při startu a při každé změně jazyka
     this.languageService.isEnglish$.subscribe((isEnglish) => {
       this.setText(isEnglish);
     });
   }
-
-
-
   private setText(isEnglish: boolean) {
     if (isEnglish) {
       this.header = 'Tech Stats';

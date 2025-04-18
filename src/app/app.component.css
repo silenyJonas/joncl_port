@@ -2,7 +2,6 @@ main{
     display: flex;
     height: 100vh;
 }
-
 .setting-wrp{
     height: 100%;
     display: flex;
@@ -26,9 +25,9 @@ main{
 .stats-wrapper{
     margin-left: 10px;  
     flex: 1;
-    display: flex;           /* Zapne flexbox */
-    flex-direction: column;  /* Uspořádání flex položek vertikálně */
-    justify-content: space-between; /* Mezery mezi položkami, jeden nahoře, druhý dole */
+    display: flex;          
+    flex-direction: column;  
+    justify-content: space-between; 
     align-items: center; 
 }
 .projects-wrapper{
@@ -39,7 +38,6 @@ main{
 .inner-fill{
     width: calc(100%);
     height: calc(100%);
-    /* border: 1px solid #FFF; */
 }
 .wrapper{
     width: 100%; 
@@ -49,7 +47,9 @@ main{
     background-color: #0f1116;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    background-color: rgba(15, 17, 22, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 .footer-wrapper{
     width: 120%;
@@ -60,4 +60,7 @@ main{
     align-items: center;
     margin-bottom: 40px;
     border-radius: 9999px;
+    background-color: rgba(15, 17, 22, 0.5); 
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px); 
 }
