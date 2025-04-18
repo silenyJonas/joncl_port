@@ -24,5 +24,5 @@ import { FooterBarComponent } from './main-content/footer-bar/footer-bar.compone
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My Angular App';
+
 }

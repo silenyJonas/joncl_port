@@ -49,7 +49,7 @@ main{
     background-color: #0f1116;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 .footer-wrapper{
     width: 120%;
