@@ -3,7 +3,7 @@ main{
     height: 100vh;
 }
 
-main > div{
+.setting-wrp{
     height: 100%;
     display: flex;
     align-items: center;
@@ -20,17 +20,20 @@ main > div{
 .info-wrapper{
     width: auto;
     margin-left: 10px;  
-    width: 400px;
+    width: 500px;
 
 }
 .stats-wrapper{
     margin-left: 10px;  
     flex: 1;
-    
+    display: flex;           /* Zapne flexbox */
+    flex-direction: column;  /* Uspořádání flex položek vertikálně */
+    justify-content: space-between; /* Mezery mezi položkami, jeden nahoře, druhý dole */
+    align-items: center; 
 }
 .projects-wrapper{
     margin-left: 10px;  
-    width: 400px;
+    width: 450px;
     margin-right: 10px;
 }
 .inner-fill{
@@ -48,4 +51,13 @@ main > div{
     justify-content: center;
     align-items: center;
 }
-
+.footer-wrapper{
+    width: 120%;
+    height: auto;
+    background-color: #0f1116;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 9999px;
+}
