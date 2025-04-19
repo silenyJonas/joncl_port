@@ -23,3 +23,8 @@
 .item a{
     height: 30px;
 }
+@media (max-width: 1660px) {
+    .items-wrapper{
+        flex-direction: row;
+    }
+}

@@ -64,3 +64,39 @@ main{
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px); 
 }
+#app-service{
+    width: 380px; 
+    margin-left: 120px;
+}
+#app-contact{
+    width: 259px;
+}
+#app-collaboration{
+    width: calc(100% - 190px);
+}
+@media (max-width: 1660px) {
+    #app-collaboration {
+        width: 100%;
+    }
+    main{
+        display: block;
+    }
+    #app-side-bar{
+        height: auto;
+        width: 100%;
+    }
+    .info-wrapper, .stats-wrapper, .projects-wrapper{
+        width: 100%;
+    }
+    
+}
+@media (min-width: 2080px){
+    #app-collaboration {
+        width: 851px;
+    }
+}
+@media(min-width: 1921px){
+    #app-footer-bar{
+        width: 1056px;
+    }
+}
