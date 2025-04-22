@@ -21,6 +21,8 @@ export class FooterBarComponent {
   toggleLang(lang: boolean) {
     this.languageService.toggleLanguage(lang);
   }
+  czFlagLink : string = "assets/info-icons/czech-republic.png";
+  enFlagLink : string = "assets/info-icons/united-kingdom.png";
   setText(isEnglish: boolean) {
     this.rightsReserved = isEnglish
       ? '2023 Joncl. All rights reserved.'
