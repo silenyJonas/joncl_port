@@ -20,7 +20,7 @@ export class ProjectsComponent implements OnInit {
   }
   private setProjects(isEnglish: boolean): void {
     if (isEnglish) {
-      this.projectsHeader = 'Projects';
+      this.projectsHeader = 'Reference projects';
       this.projects = [
         {
           title: 'Desktop App',
@@ -45,7 +45,7 @@ export class ProjectsComponent implements OnInit {
         }
       ];
     } else {
-      this.projectsHeader = 'Projekty';
+      this.projectsHeader = 'Ukázkové projekty';
       this.projects = [
         {
           title: 'Desktopová Aplikace',

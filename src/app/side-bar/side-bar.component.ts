@@ -8,11 +8,10 @@ import { CommonModule } from '@angular/common';
 })
 export class SideBarComponent {
   socialLinks: { iconPath: string, link: string }[] = [
-    { iconPath: 'assets/images/discord.png', link: 'https://discord.com' },
-    { iconPath: 'assets/images/github.png', link: 'https://github.com' },
-    { iconPath: 'assets/images/instagram.png', link: 'https://instagram.com' },
-    { iconPath: 'assets/images/messenger.png', link: 'https://messenger.com' },
-    { iconPath: 'assets/images/whatsapp.png', link: 'https://whatsapp.com' },
-    { iconPath: 'assets/images/spotify.png', link: 'https://spotify.com' }
+    { iconPath: 'assets/images/discord.png', link: 'https://discord.com/users/591933611058397185' },
+    { iconPath: 'assets/images/github.png', link: 'https://github.com/silenyJonas' },
+    { iconPath: 'assets/images/instagram.png', link: 'https://www.instagram.com/jonashx_' },
+    { iconPath: 'assets/images/messenger.png', link: 'https://www.facebook.com/profile.php?id=61575420965652' },
+    { iconPath: 'assets/images/spotify.png', link: 'https://open.spotify.com/user/31cq3vtyqb2ianliz54fbrz2nrd4' }
   ];
 }

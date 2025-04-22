@@ -14,9 +14,9 @@ export class ContactComponent implements OnInit {
   igText: string = 'jonashx_';
   fbText: string = 'Joncl';
   contactHeader: string = '';
-  dcLink: string = 'https://www.discord.com';
-  igLink: string = 'https://www.instagram.com';
-  fbLink: string = 'https://www.facebook.com';
+  dcLink: string = 'https://discord.com/users/591933611058397185';
+  igLink: string = 'https://www.instagram.com/jonashx_';
+  fbLink: string = 'https://www.facebook.com/profile.php?id=61575420965652';
   constructor(public languageService: LanguageService) {}
   ngOnInit(): void {
     this.languageService.isEnglish$.subscribe((isEnglish) => {
