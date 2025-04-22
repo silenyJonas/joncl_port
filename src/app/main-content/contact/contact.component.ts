@@ -31,5 +31,5 @@ export class ContactComponent implements OnInit {
     }
   }
   email : string = "jonas.bucina@seznam.cz";
-  emailIcon : string = "../../../assets/images/email.png";
+  emailIcon : string = "assets/images/email.png";
 }
