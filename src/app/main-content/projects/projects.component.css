@@ -63,3 +63,12 @@
     cursor: pointer;
     height: 150px;
 }
+@media(max-width: 1660px){
+    .wrp{
+        transition: none;
+    }
+    .wrp:hover{
+        cursor: default;
+        height: 75px;
+    }
+}
