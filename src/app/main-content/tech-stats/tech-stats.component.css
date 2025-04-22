@@ -22,3 +22,12 @@
     display: flex;
     justify-content: center
 }
+@media (max-width: 1660px){
+    .item-wrp-1{
+        padding-top: 0px;
+    }   
+    .container{
+        height: 200px;
+        margin-top: -20px;
+    }
+}

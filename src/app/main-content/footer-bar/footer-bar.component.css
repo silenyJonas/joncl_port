@@ -38,3 +38,8 @@
     padding-left: 2px;
     padding-right: 2px;
 }
+@media (max-width: 1660px){
+    .inner-wrp{
+        font-size: 9px;
+    }
+}

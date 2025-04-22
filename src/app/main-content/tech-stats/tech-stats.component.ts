@@ -22,14 +22,14 @@ export class TechStatsComponent implements OnInit {
       this.header = 'Tech Stats';
       this.yearsActive = [
         { number: '3', description: 'Years Active' },
-        { number: '8', description: 'Projects Completed' },
+        { number: '8', description: 'Projects' },
         { number: '5', description: 'Clients' },
       ];
     } else {
       this.header = 'Technické Statistiky';
       this.yearsActive = [
         { number: '3', description: 'Roky Aktivní' },
-        { number: '8', description: 'Dokončených Projektů' },
+        { number: '8', description: 'Projektů' },
         { number: '5', description: 'Klientů' },
       ];
     }

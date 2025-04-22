@@ -30,4 +30,6 @@ export class ContactComponent implements OnInit {
       this.contactHeader = 'Kontaktuj Mě';
     }
   }
+  email : string = "jonas.bucina@seznam.cz";
+  emailIcon : string = "../../../assets/images/email.png";
 }

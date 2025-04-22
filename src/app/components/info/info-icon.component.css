@@ -42,3 +42,8 @@
     font-size: 12px;
   
 }
+@media (max-width: 420px) {
+   .font-size-small{
+    font-size: 9px;
+   }
+}
