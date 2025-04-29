@@ -40,7 +40,7 @@ export class ProjectsComponent implements OnInit {
           title: 'Website',
           backgroundPath: 'assets/projects-bg/web-bg.png',
           description: 'Web Page',
-          githubLink: 'https://www.naucseto.com',
+          githubLink: 'https://silenyJonas.github.io/ref_website_1/',
           githubLogo: 'assets/images/internet.png',
         }
       ];
@@ -65,7 +65,7 @@ export class ProjectsComponent implements OnInit {
           title: 'Webová Stránka',
           backgroundPath: 'assets/projects-bg/web-bg.png',
           description: 'Webová stránka',
-          githubLink: 'https://www.naucseto.com',
+          githubLink: 'https://silenyJonas.github.io/ref_website_1/',
           githubLogo: 'assets/images/internet.png',
         }
       ];
