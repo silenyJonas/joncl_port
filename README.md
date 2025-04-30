@@ -4,7 +4,7 @@ Vítej v mém osobním portfoliu vytvořeném v Angularu. Tento projekt prezentu
 
 [![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JonclPort)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/silenyJonas)
 
 ## 🚀 Co zde najdeš
 
@@ -16,5 +16,5 @@ Vítej v mém osobním portfoliu vytvořeném v Angularu. Tento projekt prezentu
 ## 🔧 Použité technologie
 
 - **Frontend**: Angular 19, TypeScript, CSS
-- - **CI/CD**: GitHub Actions
+- **CI/CD**: GitHub Actions
 - **Hosting**: GitHub Pages
