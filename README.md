@@ -18,3 +18,8 @@ Vítej v mém osobním portfoliu vytvořeném v Angularu. Tento projekt prezentu
 - **Frontend**: Angular 19, TypeScript, CSS
 - **CI/CD**: GitHub Actions
 - **Hosting**: GitHub Pages
+
+## 🌐 Živá verze
+
+Portfolio je dostupné online:  
+👉 [https://silenyjonas.github.io/joncl_port/](https://silenyjonas.github.io/joncl_port/)
