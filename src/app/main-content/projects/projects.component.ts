@@ -23,24 +23,24 @@ export class ProjectsComponent implements OnInit {
       this.projectsHeader = 'Reference projects';
       this.projects = [
         {
-          title: 'Desktop App',
+          title: 'File Manager',
           backgroundPath: 'assets/projects-bg/mc.png',
           description: 'Source Code',
           githubLink: 'https://github.com/silenyJonas/midnight_commander_op',
           githubLogo: 'assets/images/github-projects.png',
         },
         {
-          title: 'Desktop App',
+          title: 'Database Api Tool',
           backgroundPath: 'assets/projects-bg/db_tool.png',
           description: 'Source Code',
           githubLink: 'https://github.com/silenyJonas/database_api',
           githubLogo: 'assets/images/github-projects.png',
         },
         {
-          title: 'Website',
+          title: 'School Website',
           backgroundPath: 'assets/projects-bg/web-bg.png',
           description: 'Web Page',
-          githubLink: 'https://silenyJonas.github.io/ref_website_1/',
+          githubLink: 'https://web-dump-1052.github.io/ref_website_1/',
           githubLogo: 'assets/images/internet.png',
         }
       ];
@@ -48,24 +48,24 @@ export class ProjectsComponent implements OnInit {
       this.projectsHeader = 'Ukázkové projekty';
       this.projects = [
         {
-          title: 'Desktopová Aplikace',
+          title: 'File Manager',
           backgroundPath: 'assets/projects-bg/mc.png',
           description: 'Zdrojový Kód',
           githubLink: 'https://github.com/silenyJonas/midnight_commander_op',
           githubLogo: 'assets/images/github-projects.png',
         },
         {
-          title: 'Desktopová Aplikace',
+          title: 'Databázový Nástroj por API',
           backgroundPath: 'assets/projects-bg/db_tool.png',
           description: 'Zdrojový Kód',
           githubLink: 'https://github.com/silenyJonas/database_api',
           githubLogo: 'assets/images/github-projects.png',
         },
         {
-          title: 'Webová Stránka',
+          title: 'Webová Stránka Školy',
           backgroundPath: 'assets/projects-bg/web-bg.png',
           description: 'Webová stránka',
-          githubLink: 'https://silenyJonas.github.io/ref_website_1/',
+          githubLink: 'https://web-dump-1052.github.io/ref_website_1/',
           githubLogo: 'assets/images/internet.png',
         }
       ];

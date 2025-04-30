@@ -31,6 +31,7 @@ export class InfoComponent implements OnInit {
     { title: 'Angular', iconPath: 'assets/info-icons/angular.png' },
     { title: 'Autocad', iconPath: 'assets/info-icons/autocad.png' },
     { title: 'Inventor', iconPath: 'assets/info-icons/inventor.png' },
+    { title: 'Git', iconPath: 'assets/info-icons/social.png' },
   ];
   groupedInfoTexts: any[][] = [];
   constructor(public languageService: LanguageService) {}
@@ -44,14 +45,16 @@ export class InfoComponent implements OnInit {
     if (isEnglish) {
       this.personalInfo = [
         { title: 'English & Czech', iconPath: '' },
-        { title: 'from: Czech', iconPath: '' },
+        { title: 'Czech', iconPath: '' },
+        { title: 'Prague', iconPath: '' },
         { title: '21yo', iconPath: '' }
       ];
       this.techUseHeader = 'Technologies I use:';
     } else {
       this.personalInfo = [
         { title: 'Angličtina & Čestina', iconPath: '' },
-        { title: 'Z Česka', iconPath: '' },
+        { title: 'Česko', iconPath: '' },
+        { title: 'Praha', iconPath: '' },
         { title: '21 let', iconPath: '' }
       ];
       this.techUseHeader = 'Technologie, které využívám:';
