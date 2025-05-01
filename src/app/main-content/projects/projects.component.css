@@ -15,11 +15,34 @@
     width: 100%;
     height: calc(100% - 30px);
     border-radius: 0px 0px 5px 5px;
-    box-shadow: inset 0 0 0 2px #5ca060;
     display: flex;
+}
+.card{
+    text-decoration: none;
+    color: #d2d4d3;
+}
+.info-wrp{
+    width: 50%;
+    height: 100%;
+    background-color: #191819;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.info-text{
+    height: 90%;
+    width: 90%;
+}
+.img-wrp{
+    width: 50%;
+    height: 100%;
     align-items: end;
     background-repeat: no-repeat;
     background-size: cover;                
+    display: flex;
+    border-bottom-right-radius: 5px;
 }
 .github-wrapper{
     margin-bottom: 5px;
@@ -55,6 +78,7 @@
     height: 75px;
     padding-top: 5px;
     transition: height 0.3s ease-in-out;
+    width: 100%;
 }
 .wrp a{
     text-decoration: none;
@@ -63,12 +87,18 @@
     cursor: pointer;
     height: 150px;
 }
+
 @media(max-width: 1660px){
     .wrp{
         transition: none;
+        height: 170px;
     }
-    .wrp:hover{
+    .img-wrp{
+        height: auto;
+    }
+    .wrp:hover {
+        height: auto;
         cursor: default;
-        height: 75px;
     }
+
 }
